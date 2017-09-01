@@ -250,7 +250,7 @@ Devise.setup do |config|
   # The router that invoked `devise_for`, in the example above, would be:
   config.router_name = :fae
   # Set Fae as parent_controller
-  config.parent_controller = 'Fae::ApplicationController'
+  # config.parent_controller = 'Fae::ApplicationController'
   #
   # When using omniauth, Devise cannot automatically set Omniauth path,
   # so you need to do it manually. For the users scope, it would be:
